@@ -12,7 +12,7 @@ const initialValues = {
 }
 function App() {
 
-  const [info, setInfo] = useState(initialValues);
+  const [info, setInfo] = useState(initialValues)
   
   const handleFormSubmit = () => {
     if(info.id){
